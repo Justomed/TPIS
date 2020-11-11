@@ -21,11 +21,6 @@ public class numeroPrimo
         }else{
             System.out.println("El numero no es primo");
         }
-        /*agrego para saber si el numero es par o impar
-            if (numero%2==0){
-               System.out.println("El número es par");
-             else
-               System.out.println("El número es impar");
-            }*/
+
     }
 }
