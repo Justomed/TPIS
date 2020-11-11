@@ -6,16 +6,16 @@ public class numeroPrimo
         Scanner obtenerNumero = new Scanner(System.in);
         int contador,I,numero;
         System.out.print("Ingresa un numero: ");
-        numero = obtenerNumero.nextInt();
-        contador = 0;
-        for(I = 1; I <= numero; I++)
+        num = obtenerNumero.nextInt();
+        cont = 0;
+        for(I = 1; I <= num; I++)
         {
-            if((numero % I) == 0)
+            if((num % I) == 0)
             {
-                contador++;
+                cont++;
             }
         }
-        if(contador <= 2)
+        if(cont <= 2)
         {
             System.out.println("El numero es primo");
         }else{
