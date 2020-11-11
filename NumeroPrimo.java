@@ -21,5 +21,6 @@ public class numeroPrimo
         }else{
             System.out.println("El numero no es primo");
         }
+
     }
 }
